@@ -1,0 +1,19 @@
+{
+  "name": "@void0/detect-env",
+  "description": "Detects the environment in which the code is being executed - RSC (React Server Components), Node or the Browser.",
+  "keywords": [
+    "react"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "react-server": "./src/rsc.server.ts",
+      "default": {
+        "browser": "./src/browser.client.ts",
+        "node": "./src/node.client.ts"
+      }
+    }
+  }
+}
