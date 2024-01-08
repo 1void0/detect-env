@@ -6,13 +6,13 @@
   ],
   "version": "1.1.0",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "./src/index.js",
   "exports": {
     ".": {
-      "react-server": "./src/rsc.server.ts",
+      "react-server": "./src/rsc.server.js",
       "default": {
-        "browser": "./src/browser.client.ts",
-        "node": "./src/node.client.ts"
+        "browser": "./src/browser.client.js",
+        "node": "./src/node.client.js"
       }
     }
   },
