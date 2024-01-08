@@ -15,5 +15,14 @@
         "node": "./src/node.client.ts"
       }
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1void0/detect-env.git"
+  },
+  "author": "Cédric Trigoso",
+  "bugs": {
+    "url": "https://github.com/1void0/detect-env/issues"
+  },
+  "homepage": "https://github.com/1void0/detect-env#readme"
 }
